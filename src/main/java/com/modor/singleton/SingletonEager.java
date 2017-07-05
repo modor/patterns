@@ -1,4 +1,4 @@
-package com.modor.patterns;
+package com.modor.singleton;
 
 public class SingletonEager {
     private SingletonEager() {
