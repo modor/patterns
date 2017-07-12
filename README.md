@@ -1,6 +1,7 @@
 各个模式适用场景说明
 ===
 *1.简单工厂模式(Simple Factory Pattern)*
+
 简单工厂模式又称静态工厂方法(static factory method)....
 ***
 
