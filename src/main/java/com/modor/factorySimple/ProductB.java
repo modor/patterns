@@ -1,6 +1,6 @@
 package com.modor.factorySimple;
 
-public class ProductB implements BasicClass {
+public class ProductB implements BasicProduct {
 
 	@Override
 	public String methodA() {

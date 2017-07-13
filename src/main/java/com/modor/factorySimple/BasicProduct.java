@@ -1,6 +1,6 @@
 package com.modor.factorySimple;
 
-public interface BasicClass {
+public interface BasicProduct {
 	String methodA();
 
 	String methodB();

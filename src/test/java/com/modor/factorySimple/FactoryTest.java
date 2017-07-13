@@ -8,8 +8,8 @@ public class FactoryTest {
 
 	@Test
 	public void testGetProduct() {
-		BasicClass productA = Factory.getProduct("productA");
-		BasicClass productB = Factory.getProduct("productB");
+		BasicProduct productA = Factory.getProduct("productA");
+		BasicProduct productB = Factory.getProduct("productB");
 		// BasicClass productC = Factory.getProduct("productC");
 		assert (productA.methodA().equals("AA"));
 		assert (productA.methodB().equals("AB"));

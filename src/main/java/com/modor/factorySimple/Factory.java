@@ -1,7 +1,7 @@
 package com.modor.factorySimple;
 
 public class Factory {
-	public static BasicClass getProduct(String type) {
+	public static BasicProduct getProduct(String type) {
 		if (type.equals("productA")) {
 			return new ProductA();
 		} else if (type.equals("productB")) {
