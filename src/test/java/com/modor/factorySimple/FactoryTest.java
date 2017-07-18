@@ -1,6 +1,6 @@
 package com.modor.factorySimple;
 
-import junit.framework.Assert;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
@@ -11,10 +11,10 @@ public class FactoryTest {
 		BasicProduct productA = Factory.getProduct("productA");
 		BasicProduct productB = Factory.getProduct("productB");
 		// BasicClass productC = Factory.getProduct("productC");
-		assert (productA.methodA().equals("AA"));
-		assert (productA.methodB().equals("AB"));
-		assert (productB.methodA().equals("BA"));
-		assert (productB.methodB().equals("BB"));
+		assertEquals(productA.methodA(), "AA");
+		assertEquals(productA.methodB(), "AB");
+		assertEquals(productB.methodA(), "BA");
+		assertEquals(productB.methodB(), "BB");
 	}
 
 }

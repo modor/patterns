@@ -1,13 +1,17 @@
 package com.modor.factoryAbstract;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 public class ConcreteProduct1Test {
 
 	@Test
 	public void test() {
-		assert (new ConcreteProduct1().factoryA().equals("A1"));
-		assert (new ConcreteProduct1().factoryB().equals("B1"));
+		assertEquals(new ConcreteProduct1().factoryA().produceProduct(),
+				"productA1");
+		assertEquals(new ConcreteProduct1().factoryB().produceProduct(),
+				"productB1");
 	}
 
 }

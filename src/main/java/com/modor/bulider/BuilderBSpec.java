@@ -13,13 +13,13 @@ public class BuilderBSpec implements Builder {
 	@Override
 	public void buildPart2() {
 		// TODO Auto-generated method stub
-		product.setPart1("BSPEC2");
+		product.setPart2("BSPEC2");
 	}
 
 	@Override
 	public void buildPart3() {
 		// TODO Auto-generated method stub
-		product.setPart1("BSPEC3");
+		product.setPart3("BSPEC3");
 	}
 
 	@Override

@@ -1,5 +1,7 @@
 package com.modor.singleton;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 public class SingletonEagerTest {
@@ -9,6 +11,6 @@ public class SingletonEagerTest {
 		SingletonLazy s0 = SingletonLazy.getInstance();
 		s0.setTestData(100);
 		SingletonLazy s1 = SingletonLazy.getInstance();
-		assert (s0.getTestData() == s1.getTestData());
+		assertEquals(s0.getTestData(), s1.getTestData());
 	}
 }

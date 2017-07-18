@@ -1,13 +1,17 @@
 package com.modor.factoryMethod;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 public class FactoryShopBTest {
 
 	@Test
 	public void test() {
-		assert (new FactoryShopB().createProduct("B1").equals("productB1"));
-		assert (new FactoryShopB().createProduct("B2").equals("productB2"));
+		assertEquals(new FactoryShopB().createProduct("B1").produceProduct(),
+				"productB1");
+		assertEquals(new FactoryShopB().createProduct("B2").produceProduct(),
+				"productB2");
 	}
 
 }
