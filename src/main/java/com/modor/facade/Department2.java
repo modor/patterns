@@ -1,0 +1,13 @@
+package com.modor.facade;
+
+public class Department2 {
+
+	public String operation1() {
+		return "Department2-operation1";
+	}
+
+	public String operation2() {
+		return "Department2-operation2";
+	}
+
+}
