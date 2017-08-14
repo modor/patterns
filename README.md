@@ -150,5 +150,5 @@
 ***
 * 观察者模式
 
-
+观察者模式有时又被称为发布（publish ）-订阅（Subscribe）模式、模型-视图（View）模式、源-收听者(Listener)模式或从属者模式，是指当观察者（Observer）将自己注册到被观察对象（Subject）中，被观察对象将观察者存放在一个容器（Container）里，当需要修改并通知观察者时只需要调用Subject中的方法即可，同时Subject也会提供Observer的添加和删除接口。
 ***
